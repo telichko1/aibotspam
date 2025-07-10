@@ -168,7 +168,7 @@ async def scheduler():
         except Exception as e:
             logger.error(f"❌ Ошибка в планировщике: {str(e)}")
         
-        await asyncio.sleep(180)  # 3 минуты = 180 секунд
+        await asyncio.sleep(60)  # 3 минуты = 180 секунд
 
 async def self_pinger():
     """Регулярные ping-запросы для предотвращения сна сервиса"""
