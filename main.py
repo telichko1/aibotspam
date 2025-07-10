@@ -172,7 +172,7 @@ async def scheduler():
 
 async def self_pinger():
     """Регулярные ping-запросы для предотвращения сна сервиса"""
-    RENDER_APP_URL = os.getenv("RENDER_APP_URL", "https://your-render-app.onrender.com")
+    RENDER_APP_URL = os.getenv("RENDER_APP_URL", "https://aibotspam.onrender.com/")
     while True:
         try:
             async with aiohttp.ClientSession() as session:
