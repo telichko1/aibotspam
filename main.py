@@ -25,7 +25,8 @@ CHANNELS = [
     "@gptdalle3",
     "@gptchatdalle",
     "@gpt_deepseek_openai",
-    "@gemini_stable_diffusion"
+    "@gemini_stable_diffusion",
+    "@gpt4deepseek"
 ]
 
 # Расширенные библиотеки хештегов
